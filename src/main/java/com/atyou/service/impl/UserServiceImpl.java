@@ -109,7 +109,7 @@ public class UserServiceImpl implements UserService{
 			    final String domain = "dysmsapi.aliyuncs.com";//短信API产品域名（接口地址固定，无需修改）
 			    //替换成你的AK，暂时清除短信服务keyid，使用时再去阿里云获取即可
 			    final String accessKeyId = "******";//你的accessKeyId,参考本文档步骤2
-			    final String accessKeySecret = "******";//你的accessKeySecret，参考本文档步骤2
+			    final String accessKeySecret = "******0";//你的accessKeySecret，参考本文档步骤2
 			    //初始化ascClient,暂时不支持多region（请勿修改）
 			    IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", accessKeyId,
 			    accessKeySecret);
